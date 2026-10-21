@@ -1,0 +1,67 @@
+What is a strong acid? | An acid that ionizes essentially completely | Acid and base definitions | An acid that ionizes essentially completely in water.
+What is a weak acid? | An acid that ionizes partially | Acid and base definitions | An acid that only partially ionizes in water; most molecules remain intact.
+What is a strong base? | A base that dissociates essentially completely | Acid and base definitions | A base that dissociates essentially completely in water, usually a soluble metal hydroxide.
+What is a weak base? | A base that reacts partially with water | Acid and base definitions | A base that reacts only partially with water; most base molecules remain intact.
+What is a strong electrolyte? | A substance that dissociates or ionizes essentially completely | Electrolyte definitions | A substance that produces many ions in water because it dissociates or ionizes essentially completely.
+What is a weak electrolyte? | A substance that ionizes partially | Electrolyte definitions | A substance that produces only a small concentration of ions because it ionizes partially.
+What is a nonelectrolyte? | A substance that dissolves without producing ions | Electrolyte definitions | A substance that dissolves without producing ions in water.
+What particles are present in a strong electrolyte solution? | Mostly separated ions | Particles in solution | Mostly separated ions; very few intact formula units remain.
+What particles are present in a weak electrolyte solution? | Mostly intact molecules with some ions | Particles in solution | Mostly intact molecules, with a small number of ions.
+How do soluble ionic compounds behave in water? | They dissociate into hydrated ions | Particles in solution | They dissociate completely into separated, hydrated ions.
+How do molecular compounds behave if they are nonelectrolytes? | They remain as neutral molecules | Particles in solution | They remain as neutral molecules in solution.
+What is the particle-level picture for a strong acid? | Mostly H3O+ and conjugate-base ions | Particles in solution | Mostly H3O+ or H+ and the conjugate-base ions, with very few intact acid molecules.
+What is the particle-level picture for a weak acid? | Mostly intact acid molecules | Particles in solution | Mostly intact acid molecules, with a small amount of H3O+ and conjugate-base ions.
+How does water orient around a cation? | Oxygen end toward the ion | Water orientation around ions | The oxygen end of water points toward the positive ion.
+How does water orient around an anion? | Hydrogen ends toward the ion | Water orientation around ions | The hydrogen ends of water point toward the negative ion.
+What is the ion ratio when CaCl2 dissolves? | 1:2 | Dissolved ion ratios | One Ca2+ ion for every two Cl- ions.
+What is the ion ratio when AlCl3 dissolves? | 1:3 | Dissolved ion ratios | One Al3+ ion for every three Cl- ions.
+What is the ionization equation for NH3? | NH3 + H2O ⇌ NH4+ + OH- | Acid and base reaction equations | NH3 reacts only partially with water, forming ammonium and hydroxide ions; the equilibrium arrow reflects this.
+What is the net ionic equation for a weak acid HA reacting with OH-? | HA + OH- → A- + H2O | Acid and base reaction equations | Keep the weak acid HA intact on the reactant side; hydroxide removes its proton to form water and A-.
+What is the net ionic equation for a strong acid reacting with OH-? | H+ + OH- → H2O | Acid and base reaction equations | A strong acid ionizes essentially completely, so its reacting species is represented as H+; spectator ions are omitted.
+What is the difference between dissociation and ionization? | Dissociation separates ions; ionization creates ions | Electrolyte definitions | Dissociation separates existing ions in an ionic compound; ionization creates ions from a molecular compound.
+Strong acids to memorize | HCl, HBr, HI, HNO3, HClO4, H2SO4 | Acid and base memorization lists | HCl, HBr, HI, HNO3, HClO4, and H2SO4 for its first ionization.
+Common weak acids to memorize | HF, HC2H3O2, H2CO3, H3PO4, HCN, HNO2, HClO, HClO2, H2SO3 | Acid and base memorization lists | HF, HC2H3O2 or CH3COOH, H2CO3, H3PO4, HCN, HNO2, HClO, HClO2, and H2SO3.
+Strong bases to memorize | Group 1 hydroxides, Ca(OH)2, Sr(OH)2, Ba(OH)2 | Acid and base memorization lists | Group 1 hydroxides and the soluble Group 2 hydroxides Ca(OH)2, Sr(OH)2, and Ba(OH)2.
+Is HF a strong acid? | No | Acid strength classification | No. HF is a weak acid, even though it is a hydrohalic acid.
+Is HClO4 a strong acid? | Yes | Acid strength classification | Yes. HClO4 is perchloric acid and is a strong acid.
+Is HClO2 a strong acid? | No | Acid strength classification | No. HClO2 is chlorous acid and is a weak acid.
+Is HCN a strong acid? | No | Acid strength classification | No. HCN is a weak acid.
+What is the naming rule for binary ionic compounds? | Cation first, then anion ending in -ide | Compound naming rules | Name the cation first, then name the anion with an -ide ending.
+How are transition-metal ionic compounds named? | Metal name, Roman numeral, then anion name | Compound naming rules | Name the metal, include its oxidation state in Roman numerals, then name the anion.
+How is CuSO4 named? | Copper(II) sulfate | Ionic compound names | Sulfate is SO4^2-, so copper must be Cu2+; the Roman numeral is II.
+How is FeCl3 named? | Iron(III) chloride | Ionic compound names | Three chloride ions contribute -3 total, so iron is Fe3+ and uses III.
+How is Fe(OH)2 named? | Iron(II) hydroxide | Ionic compound names | Two hydroxide ions contribute -2 total, so iron is Fe2+ and uses II.
+How is a monatomic anion named? | Element root plus -ide | Compound naming rules | Use the element root plus the ending -ide; for example, Cl- is chloride.
+How are ionic compounds with polyatomic ions named? | Cation name, then unchanged polyatomic anion name | Compound naming rules | Name the cation, then name the polyatomic anion; do not change the polyatomic ion name.
+How is NaClO2 named? | Sodium chlorite | Ionic compound names | Na+ is sodium and ClO2- is chlorite. Keep the polyatomic ion name unchanged.
+How is Na2SO3 named? | Sodium sulfite | Ionic compound names | Na+ is sodium and SO3^2- is sulfite. The two sodium ions balance the -2 charge.
+How is (NH4)3PO4 named? | Ammonium phosphate | Ionic compound names | NH4+ is ammonium and PO4^3- is phosphate. Three ammonium ions balance one phosphate ion.
+How is Ca(NO3)2 named? | Calcium nitrate | Ionic compound names | Ca2+ is calcium and NO3- is nitrate. Two nitrate ions balance one calcium ion.
+What is the naming pattern for binary molecular compounds? | Prefixes for atom counts; second element ends in -ide | Compound naming rules | Use prefixes to show atom counts and change the second element to -ide.
+What is the formula for magnesium hydroxide? | Mg(OH)2 | Ionic compound formulas | One Mg2+ requires two OH- ions. Parentheses show that the entire hydroxide ion is repeated.
+What is the formula for aluminum oxide? | Al2O3 | Ionic compound formulas | Two Al3+ ions and three O2- ions give equal positive and negative charges: +6 and -6.
+What is the formula for iron(III) oxide? | Fe2O3 | Ionic compound formulas | Iron(III) is Fe3+. Two Fe3+ ions balance three O2- ions.
+What is the formula for copper(I) sulfide? | Cu2S | Ionic compound formulas | Copper(I) is Cu+. Two Cu+ ions balance one S2- ion.
+What is the formula for ammonium phosphate? | (NH4)3PO4 | Ionic compound formulas | Three NH4+ ions balance one PO4^3- ion. Parentheses enclose the repeated ammonium ion.
+What is the formula for potassium carbonate? | K2CO3 | Ionic compound formulas | Two K+ ions balance one CO3^2- ion. Only one carbonate ion is needed.
+When are parentheses required in an ionic formula? | When more than one of a polyatomic ion is needed | Formula parentheses rules | When more than one polyatomic ion is needed, such as Ca(NO3)2 or Fe(OH)3.
+Are parentheses needed in K2CO3? | No | Formula parentheses rules | No. There is only one carbonate ion, so the standard formula is K2CO3.
+What is the formula for copper(II) sulfate? | CuSO4 | Ionic compound formulas | CuSO4; Cu2+ and SO4^2- balance in a 1:1 ratio.
+What is the charge of nitrate? | -1 | Polyatomic ions | Nitrate is NO3-. The entire polyatomic ion has a net charge of -1.
+What is the charge of nitrite? | -1 | Polyatomic ions | Nitrite is NO2-. It has one fewer oxygen than nitrate but the same -1 charge.
+What is the charge of sulfate? | -2 | Polyatomic ions | Sulfate is SO4^2-. The entire polyatomic ion has a net charge of -2.
+What is the charge of sulfite? | -2 | Polyatomic ions | Sulfite is SO3^2-. It has one fewer oxygen than sulfate but the same -2 charge.
+What is the charge of carbonate? | -2 | Polyatomic ions | Carbonate is CO3^2-. The entire polyatomic ion has a net charge of -2.
+What is the charge of phosphate? | -3 | Polyatomic ions | Phosphate is PO4^3-. The entire polyatomic ion has a net charge of -3.
+What is the charge of hydroxide? | -1 | Polyatomic ions | Hydroxide is OH-. The ion has a net charge of -1.
+What is the charge of ammonium? | +1 | Polyatomic ions | Ammonium is NH4+. Unlike the other ions in this group, it is a cation with charge +1.
+What is the acid-name ending for an -ate oxyanion? | -ic acid | Acid naming rules | -ic acid; for example, chlorate becomes chloric acid.
+What is the acid-name ending for an -ite oxyanion? | -ous acid | Acid naming rules | -ous acid; for example, chlorite becomes chlorous acid.
+How is HClO3 named? | Chloric acid | Acid names | ClO3- is chlorate. The -ate ending becomes -ic acid.
+How is HClO2 named? | Chlorous acid | Acid names | ClO2- is chlorite. The -ite ending becomes -ous acid.
+How is HNO3 named? | Nitric acid | Acid names | NO3- is nitrate. The -ate ending becomes -ic acid.
+How is HNO2 named? | Nitrous acid | Acid names | NO2- is nitrite. The -ite ending becomes -ous acid.
+How is H2SO4 named? | Sulfuric acid | Acid names | SO4^2- is sulfate. Sulfate gives the acid name sulfuric acid.
+How is H2SO3 named? | Sulfurous acid | Acid names | SO3^2- is sulfite. Sulfite gives the acid name sulfurous acid.
+How is HClO4 named? | Perchloric acid | Acid names | ClO4- is perchlorate. Keep per- and change -ate to -ic acid.
+What is the acid-name pattern for the hypo- and per- oxyanions? | hypo-ous, -ous, -ic, per-ic | Acid naming rules | Hypo-ous is the fewest oxygens, -ous is next, -ic is next, and per-ic is the most oxygens.

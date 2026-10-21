@@ -1,0 +1,9 @@
+# Example set: use one term | definition per line.
+Cell | The smallest structural and functional unit of a living organism
+Nucleus | The organelle that contains most of a cell's genetic material
+Mitochondrion | An organelle that produces ATP through cellular respiration
+Ribosome | The cellular structure that builds proteins
+Chloroplast | The organelle where photosynthesis occurs in plants and algae
+Cell membrane | The selective barrier that surrounds a cell
+Osmosis | The movement of water across a selectively permeable membrane
+Diffusion | The net movement of particles from higher to lower concentration

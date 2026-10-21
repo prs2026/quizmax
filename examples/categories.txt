@@ -1,0 +1,9 @@
+# Import with "Third column is category" enabled.
+cat | gato | Animals
+dog | perro | Animals
+horse | caballo | Animals
+bird | pájaro | Animals
+red | rojo | Colors
+blue | azul | Colors
+green | verde | Colors
+yellow | amarillo | Colors
