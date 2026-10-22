@@ -23,6 +23,23 @@ class Card:
     definition: str
     category: str = ''
     explanation: str = ''
+    question: bool = False
+    options: tuple[str, ...] = ()
+
+    def __post_init__(self):
+        if type(self.question) is not bool or not isinstance(self.options, (list, tuple)):
+            raise ValueError('Invalid question format')
+        if any(not isinstance(option, str) or not option.strip() for option in self.options):
+            raise ValueError('Answer choices must be nonempty text')
+        object.__setattr__(self, 'options', tuple(self.options))
+        if self.options:
+            if not self.question or not 2 <= len(self.options) <= 6:
+                raise ValueError('Questions need between 2 and 6 choices, or no choices for typed answers')
+            normalized = [normalize(option) for option in self.options]
+            if len(set(normalized)) != len(normalized):
+                raise ValueError('Answer choices must be distinct')
+            if normalize(self.definition) not in normalized:
+                raise ValueError('The correct answer must match one of the choices')
 
     @property
     def key(self) -> str:
@@ -32,6 +49,8 @@ class Card:
 def parse_text(text: str, separator: str | None = None, categorized: bool = False,
                explained: bool = False) -> list[Card]:
     """Parse one pair per line. Auto-detection chooses one delimiter per file."""
+    if text.lstrip('\ufeff \r\n').startswith('# quizmax-questions'):
+        return parse_questions(text)
     if explained and not categorized:
         raise ValueError('The explanation column requires the category column (which may be blank).')
     lines = [(n, line.strip(' \r')) for n, line in enumerate(text.lstrip('\ufeff').splitlines(), 1)
@@ -67,6 +86,49 @@ def parse_text(text: str, separator: str | None = None, categorized: bool = Fals
                          "if automatic detection picked the wrong one. With categories enabled, "
                          "include a third column; with explanations enabled, include a fourth. "
                          "Category and explanation may be blank. Nothing was imported.")
+    return cards
+
+
+def parse_questions(text: str) -> list[Card]:
+    """Read Q:/A:/Choice: blocks, with a new Q: starting each question."""
+    cards, fields, options = [], {}, []
+    start = 1
+
+    def finish():
+        if not fields:
+            return
+        if not fields.get('q') or not fields.get('a'):
+            raise ValueError(f'Question at line {start} needs nonempty Q: and A: fields.')
+        try:
+            cards.append(Card(fields['q'], fields['a'], fields.get('category', ''),
+                              fields.get('explanation', ''), True, tuple(options)))
+        except ValueError as exc:
+            raise ValueError(f'Question at line {start}: {exc}') from exc
+
+    for number, raw in enumerate(text.lstrip('\ufeff').splitlines(), 1):
+        line = raw.strip()
+        if not line or line.startswith('#'):
+            continue
+        label, sep, value = line.partition(':')
+        label, value = label.lower().strip(), value.strip()
+        if not sep or label not in ('q', 'a', 'choice', 'category', 'explanation'):
+            raise ValueError(f'Invalid field on line {number}. Use Q:, A:, Choice:, Category:, or Explanation:.')
+        if label == 'q':
+            finish()
+            fields, options, start = {}, [], number
+        elif not fields:
+            raise ValueError(f'Line {number}: start each question with Q:.')
+        if label == 'choice':
+            options.append(value)
+        elif label in fields:
+            raise ValueError(f'Duplicate {label} field on line {number}.')
+        else:
+            fields[label] = value
+    finish()
+    if not cards:
+        raise ValueError('The file has no questions.')
+    if len({card.key for card in cards}) != len(cards):
+        raise ValueError('Duplicate question and answer pairs are not allowed.')
     return cards
 
 
@@ -145,9 +207,9 @@ class LearnSession:
 
     def __init__(self, study_set: StudySet, reverse: bool = False, rng=None):
         self.study_set = study_set
-        self.reverse = reverse
+        self.reverse = reverse and not any(c.question for c in study_set.cards)
         self.rng = rng or random.Random()
-        self.scores = study_set.scores(reverse)
+        self.scores = study_set.scores(self.reverse)
         self.queue = [c for c in study_set.cards if self.scores.get(c.key, 0) < 2]
         self.rng.shuffle(self.queue)
         self.previous: tuple[Card, int] | None = None
@@ -165,7 +227,13 @@ class LearnSession:
 
     def choices(self) -> list[str]:
         card = self.current
-        if card is None or self.scores.get(card.key, 0) > 0:
+        if card is None:
+            return []
+        if card.question:
+            options = list(card.options)
+            self.rng.shuffle(options)
+            return options
+        if self.scores.get(card.key, 0) > 0:
             return []
         prompt, answer = self.sides(card)
         # Don't offer a second valid answer when several cards share a prompt.

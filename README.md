@@ -37,6 +37,35 @@ Blank lines and lines beginning with `#` are ignored. Exact duplicate pairs are 
 
 ## Practice
 
+### Question sets with specific answers
+
+For a quiz with your own answer choices, create a `.txt` file starting with `# quizmax-questions`:
+
+```text
+# quizmax-questions
+Q: Is HF a strong acid?
+A: No
+Choice: Yes
+Choice: No
+Category: Acid strength
+Explanation: HF only partially ionizes in water.
+
+Q: What is the charge of nitrate?
+A: -1
+Choice: -1
+Choice: -2
+Choice: -3
+Choice: +1
+Category: Polyatomic ions
+Explanation: Nitrate is NO3-, with a net charge of -1.
+```
+
+Import it with **Import .txt set**. The header automatically selects this format, regardless of column settings. Try `examples/chemistry_questions.txt`.
+
+Each `Q:` starts a new question. `A:` specifies its one correct answer. Supply 2–6 distinct `Choice:` lines, including the correct answer, or omit all choices for a typed-answer question. `Category:` and `Explanation:` are optional. Keep each field on one line; colons within a field's text are allowed. Blank lines and comments are ignored. Invalid questions reject the entire import with an error.
+
+Learn shuffles the supplied choices and never borrows answers from other cards for these questions. Multiple-choice questions remain multiple choice on repeat attempts; two consecutive correct answers still mark mastery. Explanations appear after answering. Question sets also support flashcard review, with the question on the front and the correct answer on the back. Definition-first study is disabled for sets containing question-format cards.
+
 ### Categories / answer families
 
 Click **Edit categories** in the sidebar to assign categories to existing cards. Select multiple cards with Ctrl/Shift and apply a category to all of them. Changes are saved immediately and preserve Learn progress. A blank category means **Uncategorized**.
@@ -50,7 +79,7 @@ red | rojo | Colors
 blue | azul | Colors
 ```
 
-In this three-column mode, the first separator ends the term and the last separator starts the category. All rows need a third column, which may be blank. Leave both column options off for existing two-column files. See `examples/categories.txt`. The chemistry set `chem1210_flashcards_quizlet.txt` uses all four columns and imports with the default options.
+In this three-column mode, the first separator ends the term and the last separator starts the category. All rows need a third column, which may be blank. Leave both column options off for existing two-column files. See `examples/categories.txt`. The chemistry set `chem1210_flashcards_quizlet.txt` uses the automatically detected question format, with specific choices and explanations for all 67 questions.
 
 Learn only offers answers from the current card's category, including when studying definition first. Category names ignore case and extra whitespace. Uncategorized cards draw answers only from other uncategorized cards. If a category has no distinct wrong answers, Learn uses typed recall instead of offering unrelated answers. Small categories offer fewer choices.
 

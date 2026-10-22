@@ -1,0 +1,505 @@
+# quizmax-questions
+# CHEM 1210: bases, electrolytes, and naming (60 questions).
+# Assume aqueous solutions under ordinary introductory-chemistry conditions.
+# Base strength describes reaction/dissociation; electrolyte strength describes ion production.
+# References: OpenStax Chemistry 2e, sections 2.7 and 4.2, Appendix I; Chemistry, section 11.2.
+# https://openstax.org/books/chemistry-2e/pages/2-7-chemical-nomenclature
+# https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions
+# https://openstax.org/books/chemistry-2e/pages/i-ionization-constants-of-weak-bases
+# https://openstax.org/books/chemistry/pages/11-2-electrolytes
+
+Q: Is LiOH (lithium hydroxide) a strong base or a weak base in water?
+A: Strong base
+Choice: Strong base
+Choice: Weak base
+Category: Base strength
+Explanation: Lithium is in Group 1; its hydroxide dissociates into Li+ and OH-.
+
+Q: Is NaOH (sodium hydroxide) a strong base or a weak base in water?
+A: Strong base
+Choice: Weak base
+Choice: Strong base
+Category: Base strength
+Explanation: Sodium hydroxide dissociates essentially completely into Na+ and OH-.
+
+Q: Is KOH (potassium hydroxide) a strong base or a weak base in water?
+A: Strong base
+Choice: Strong base
+Choice: Weak base
+Category: Base strength
+Explanation: Potassium is in Group 1; KOH is one of the strong hydroxide bases.
+
+Q: Is RbOH (rubidium hydroxide) a strong base or a weak base in water?
+A: Strong base
+Choice: Weak base
+Choice: Strong base
+Category: Base strength
+Explanation: Rubidium is in Group 1, like sodium and potassium; RbOH is a strong base.
+
+Q: Is CsOH (cesium hydroxide) a strong base or a weak base in water?
+A: Strong base
+Choice: Strong base
+Choice: Weak base
+Category: Base strength
+Explanation: Cesium is in Group 1; CsOH dissociates into Cs+ and OH-.
+
+Q: Is Ca(OH)2 (calcium hydroxide) a strong base or a weak base in water?
+A: Strong base
+Choice: Weak base
+Choice: Strong base
+Category: Base strength
+Explanation: The dissolved portion dissociates essentially completely. Limited solubility does not make calcium hydroxide a weak base.
+
+Q: Is Sr(OH)2 (strontium hydroxide) a strong base or a weak base in water?
+A: Strong base
+Choice: Strong base
+Choice: Weak base
+Category: Base strength
+Explanation: Strontium hydroxide is one of the Group 2 hydroxides on the introductory strong-base list.
+
+Q: Is Ba(OH)2 (barium hydroxide) a strong base or a weak base in water?
+A: Strong base
+Choice: Weak base
+Choice: Strong base
+Category: Base strength
+Explanation: Barium hydroxide is a strong base; each dissolved formula unit supplies two hydroxide ions.
+
+Q: Is NH3 (ammonia) a strong base or a weak base in water?
+A: Weak base
+Choice: Strong base
+Choice: Weak base
+Category: Base strength
+Explanation: Only some NH3 molecules accept a proton from water to form NH4+ and OH-.
+
+Q: Is CH3NH2 (methylamine) a strong base or a weak base in water?
+A: Weak base
+Choice: Weak base
+Choice: Strong base
+Category: Base strength
+Explanation: Methylamine is a molecular amine that reacts only partially with water to produce OH-.
+
+Q: Is C2H5NH2 (ethylamine) a strong base or a weak base in water?
+A: Weak base
+Choice: Strong base
+Choice: Weak base
+Category: Base strength
+Explanation: Ethylamine is a molecular amine; its proton-transfer reaction with water reaches an equilibrium rather than going to completion.
+
+Q: Is C5H5N (pyridine) a strong base or a weak base in water?
+A: Weak base
+Choice: Weak base
+Choice: Strong base
+Category: Base strength
+Explanation: Pyridine accepts protons only partially in water. A nitrogen-containing base need not contain OH in its formula.
+
+Q: How is NaOH classified as an electrolyte when dissolved in water?
+A: Strong electrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Category: Electrolyte strength
+Explanation: NaOH is a strong base and produces Na+ and OH- essentially completely in solution.
+
+Q: How is KOH classified as an electrolyte when dissolved in water?
+A: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Category: Electrolyte strength
+Explanation: KOH dissociates into K+ and OH-. Strong bases of this type are strong electrolytes.
+
+Q: How is Ba(OH)2 classified as an electrolyte when dissolved in water?
+A: Strong electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Category: Electrolyte strength
+Explanation: Dissolved barium hydroxide separates into Ba2+ and two OH- ions.
+
+Q: How is NH3 classified as an electrolyte when dissolved in water?
+A: Weak electrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Category: Electrolyte strength
+Explanation: Ammonia is a weak molecular base; most dissolved NH3 remains molecular and only some forms ions.
+
+Q: How is CH3NH2 classified as an electrolyte when dissolved in water?
+A: Weak electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Category: Electrolyte strength
+Explanation: Methylamine reacts partially with water, producing a mixture of neutral molecules and ions.
+
+Q: How is C2H5NH2 classified as an electrolyte when dissolved in water?
+A: Weak electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Category: Electrolyte strength
+Explanation: Ethylamine is a weak molecular base and produces ions only partially in water.
+
+Q: How is HCl classified as an electrolyte when dissolved in water?
+A: Strong electrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Category: Electrolyte strength
+Explanation: Hydrochloric acid is a strong acid and ionizes essentially completely in water.
+
+Q: How is HNO3 classified as an electrolyte when dissolved in water?
+A: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Category: Electrolyte strength
+Explanation: Nitric acid is a strong acid, so dissolved HNO3 produces ions essentially completely.
+
+Q: How is HClO4 classified as an electrolyte when dissolved in water?
+A: Strong electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Category: Electrolyte strength
+Explanation: Perchloric acid is strong; do not confuse it with the weak acid HClO2.
+
+Q: How is HF classified as an electrolyte when dissolved in water?
+A: Weak electrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Category: Electrolyte strength
+Explanation: HF is a weak acid even though HCl, HBr, and HI are strong acids.
+
+Q: How is CH3COOH classified as an electrolyte when dissolved in water?
+A: Weak electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Category: Electrolyte strength
+Explanation: Acetic acid is a weak molecular acid and only partially ionizes.
+
+Q: How is HCN classified as an electrolyte when dissolved in water?
+A: Weak electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Category: Electrolyte strength
+Explanation: Hydrocyanic acid ionizes only partially in water.
+
+Q: How is HClO2 classified as an electrolyte when dissolved in water?
+A: Weak electrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Category: Electrolyte strength
+Explanation: Chlorous acid is weak; it is not the strong acid perchloric acid, HClO4.
+
+Q: How is NaCl classified as an electrolyte when dissolved in water?
+A: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Category: Electrolyte strength
+Explanation: Soluble sodium chloride dissociates into Na+ and Cl-. A substance need not be an acid or base to be a strong electrolyte.
+
+Q: How is Ca(NO3)2 classified as an electrolyte when dissolved in water?
+A: Strong electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Category: Electrolyte strength
+Explanation: Calcium nitrate is a soluble ionic salt and dissociates into calcium and nitrate ions.
+
+Q: How is NH4Cl classified as an electrolyte when dissolved in water?
+A: Strong electrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Category: Electrolyte strength
+Explanation: Ammonium chloride is a soluble ionic salt. Do not confuse its complete salt dissociation with the partial reaction of NH3 with water.
+
+Q: How is CH3COONa classified as an electrolyte when dissolved in water?
+A: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Category: Electrolyte strength
+Explanation: Sodium acetate is a soluble ionic salt and dissociates essentially completely, even though acetic acid itself is weak.
+
+Q: How is C6H12O6 (glucose) classified as an electrolyte when dissolved in water?
+A: Nonelectrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Category: Electrolyte strength
+Explanation: Glucose dissolves as neutral molecules rather than forming ions.
+
+Q: How is C12H22O11 (sucrose) classified as an electrolyte when dissolved in water?
+A: Nonelectrolyte
+Choice: Strong electrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Category: Electrolyte strength
+Explanation: Sucrose is molecular sugar; dissolving it does not generate ions.
+
+Q: How is C2H5OH (ethanol) classified as an electrolyte when dissolved in water?
+A: Nonelectrolyte
+Choice: Weak electrolyte
+Choice: Nonelectrolyte
+Choice: Strong electrolyte
+Category: Electrolyte strength
+Explanation: The OH group in ethanol is covalently bonded and does not dissociate as hydroxide the way NaOH does.
+
+Q: What is the name of NaOH?
+A: Sodium hydroxide
+Choice: Sodium hydroxide
+Choice: Sodium oxide
+Choice: Sodium hydride
+Choice: Sodium peroxide
+Category: Compound naming
+Explanation: Na+ is sodium; OH- is hydroxide.
+
+Q: What is the name of Ca(OH)2?
+A: Calcium hydroxide
+Choice: Calcium oxide
+Choice: Calcium hydride
+Choice: Calcium nitrate
+Choice: Calcium hydroxide
+Category: Compound naming
+Explanation: The subscript 2 repeats the hydroxide ion; it does not change its name.
+
+Q: What is the name of Ba(OH)2?
+A: Barium hydroxide
+Choice: Barium hydride
+Choice: Barium carbonate
+Choice: Barium hydroxide
+Choice: Barium oxide
+Category: Compound naming
+Explanation: Ba2+ is barium and OH- is hydroxide; name the cation first.
+
+Q: What is the name of NH4Cl?
+A: Ammonium chloride
+Choice: Ammonium hypochlorite
+Choice: Ammonium chloride
+Choice: Ammonium chlorate
+Choice: Ammonium chlorite
+Category: Compound naming
+Explanation: NH4+ is ammonium, not ammonia; Cl- is chloride.
+
+Q: What is the name of CuSO4?
+A: Copper(II) sulfate
+Choice: Copper(II) sulfate
+Choice: Copper(I) sulfate
+Choice: Copper(II) sulfite
+Choice: Copper(I) sulfite
+Category: Compound naming
+Explanation: Sulfate has charge -2, so the single copper ion must be Cu2+.
+
+Q: What is the name of Cu2S?
+A: Copper(I) sulfide
+Choice: Copper(II) sulfide
+Choice: Copper(I) sulfate
+Choice: Copper(II) sulfate
+Choice: Copper(I) sulfide
+Category: Compound naming
+Explanation: One S2- is balanced by two Cu+ ions. The Roman numeral describes each copper ion.
+
+Q: What is the name of FeCl3?
+A: Iron(III) chloride
+Choice: Iron(III) chlorate
+Choice: Iron(II) chlorite
+Choice: Iron(III) chloride
+Choice: Iron(II) chloride
+Category: Compound naming
+Explanation: Three Cl- ions require Fe3+, so the Roman numeral is III.
+
+Q: What is the name of Fe(OH)2?
+A: Iron(II) hydroxide
+Choice: Iron(III) oxide
+Choice: Iron(II) hydroxide
+Choice: Iron(III) hydroxide
+Choice: Iron(II) oxide
+Category: Compound naming
+Explanation: Two OH- ions require Fe2+, not Fe3+.
+
+Q: What is the name of NaClO2?
+A: Sodium chlorite
+Choice: Sodium chlorite
+Choice: Sodium chlorate
+Choice: Sodium hypochlorite
+Choice: Sodium perchlorate
+Category: Compound naming
+Explanation: ClO2- is chlorite; ClO3- is chlorate.
+
+Q: What is the name of NaClO3?
+A: Sodium chlorate
+Choice: Sodium chlorite
+Choice: Sodium hypochlorite
+Choice: Sodium perchlorate
+Choice: Sodium chlorate
+Category: Compound naming
+Explanation: ClO3- is chlorate. Keep the polyatomic ion name unchanged.
+
+Q: What is the name of Na2SO3?
+A: Sodium sulfite
+Choice: Sodium sulfide
+Choice: Sodium hydrogen sulfate
+Choice: Sodium sulfite
+Choice: Sodium sulfate
+Category: Compound naming
+Explanation: SO3^2- is sulfite; SO4^2- is sulfate.
+
+Q: What is the name of Na2SO4?
+A: Sodium sulfate
+Choice: Sodium hydrogen sulfite
+Choice: Sodium sulfate
+Choice: Sodium sulfite
+Choice: Sodium sulfide
+Category: Compound naming
+Explanation: SO4^2- is sulfate, balanced by two Na+ ions.
+
+Q: What is the name of Ca(NO3)2?
+A: Calcium nitrate
+Choice: Calcium nitrate
+Choice: Calcium nitrite
+Choice: Calcium nitride
+Choice: Calcium carbonate
+Category: Compound naming
+Explanation: NO3- is nitrate; NO2- would be nitrite.
+
+Q: What is the name of (NH4)3PO4?
+A: Ammonium phosphate
+Choice: Ammonium phosphite
+Choice: Ammonium phosphide
+Choice: Ammonium nitrate
+Choice: Ammonium phosphate
+Category: Compound naming
+Explanation: Three NH4+ ions balance one PO4^3- ion; name both polyatomic ions directly.
+
+Q: What is the name of HNO3(aq)?
+A: Nitric acid
+Choice: Hydrochloric acid
+Choice: Sulfuric acid
+Choice: Nitric acid
+Choice: Nitrous acid
+Category: Compound naming
+Explanation: Nitrate becomes nitric acid: the -ate ending changes to -ic acid.
+
+Q: What is the name of HNO2(aq)?
+A: Nitrous acid
+Choice: Sulfurous acid
+Choice: Nitrous acid
+Choice: Nitric acid
+Choice: Hydrochloric acid
+Category: Compound naming
+Explanation: Nitrite becomes nitrous acid: the -ite ending changes to -ous acid.
+
+Q: What is the name of HClO2(aq)?
+A: Chlorous acid
+Choice: Chlorous acid
+Choice: Chloric acid
+Choice: Perchloric acid
+Choice: Hypochlorous acid
+Category: Compound naming
+Explanation: Chlorite becomes chlorous acid.
+
+Q: What is the name of HClO4(aq)?
+A: Perchloric acid
+Choice: Chloric acid
+Choice: Chlorous acid
+Choice: Hypochlorous acid
+Choice: Perchloric acid
+Category: Compound naming
+Explanation: Perchlorate becomes perchloric acid; retain the per- prefix.
+
+Q: What is the name of H2SO4(aq)?
+A: Sulfuric acid
+Choice: Nitric acid
+Choice: Phosphoric acid
+Choice: Sulfuric acid
+Choice: Sulfurous acid
+Category: Compound naming
+Explanation: Sulfate gives sulfuric acid. Use the sulfur- root in this acid name.
+
+Q: What is the name of H2SO3(aq)?
+A: Sulfurous acid
+Choice: Phosphoric acid
+Choice: Sulfurous acid
+Choice: Sulfuric acid
+Choice: Nitrous acid
+Category: Compound naming
+Explanation: Sulfite gives sulfurous acid, with -ous instead of -ic.
+
+Q: What is the formula for potassium hydroxide?
+A: KOH
+Choice: KOH
+Choice: K(OH)2
+Choice: K2OH
+Choice: KO
+Category: Name to formula
+Explanation: K+ and OH- combine in a 1:1 ratio.
+
+Q: What is the formula for calcium hydroxide?
+A: Ca(OH)2
+Choice: CaOH
+Choice: Ca2OH
+Choice: CaO
+Choice: Ca(OH)2
+Category: Name to formula
+Explanation: One Ca2+ needs two OH- ions; parentheses enclose the repeated hydroxide ion.
+
+Q: What is the formula for ammonium chloride?
+A: NH4Cl
+Choice: NH4Cl2
+Choice: (NH4)2Cl
+Choice: NH4Cl
+Choice: NH3Cl
+Category: Name to formula
+Explanation: NH4+ and Cl- combine in a 1:1 ratio.
+
+Q: What is the formula for copper(II) sulfate?
+A: CuSO4
+Choice: Cu(SO4)2
+Choice: CuSO4
+Choice: Cu2SO4
+Choice: CuSO3
+Category: Name to formula
+Explanation: Cu2+ and SO4^2- balance in a 1:1 ratio.
+
+Q: What is the formula for iron(III) hydroxide?
+A: Fe(OH)3
+Choice: Fe(OH)3
+Choice: Fe(OH)2
+Choice: FeOH
+Choice: Fe3OH
+Category: Name to formula
+Explanation: Fe3+ needs three OH- ions.
+
+Q: What is the formula for sodium sulfite?
+A: Na2SO3
+Choice: Na2SO4
+Choice: NaSO3
+Choice: Na2S
+Choice: Na2SO3
+Category: Name to formula
+Explanation: Sulfite is SO3^2-; two Na+ ions balance its charge.
+
+Q: What is the formula for calcium nitrate?
+A: Ca(NO3)2
+Choice: Ca(NO2)2
+Choice: Ca2NO3
+Choice: Ca(NO3)2
+Choice: CaNO3
+Category: Name to formula
+Explanation: Calcium is Ca2+ and nitrate is NO3-, so two nitrate ions are required.
+
+Q: What is the formula for ammonium phosphate?
+A: (NH4)3PO4
+Choice: NH4(PO4)3
+Choice: (NH4)3PO4
+Choice: NH4PO4
+Choice: (NH4)2PO4
+Category: Name to formula
+Explanation: Three ammonium ions, each +1, balance one phosphate ion with charge -3.

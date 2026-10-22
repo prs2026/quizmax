@@ -78,6 +78,24 @@ def main():
             assert len(loaded.sets) == 1
             assert len(loaded.sets[0].scores()) == 8
             assert loaded.sets[0].cards[0].explanation == 'Explanation smoke marker'
+            question_set = StudySet('Questions', parse_text(
+                Path('examples/chemistry_questions.txt').read_text(encoding='utf-8')))
+            library.sets.append(question_set)
+            app.selected = question_set
+            app.reset_view()
+            assert app.direction_toggle.instate(['disabled'])
+            app.session.queue = [question_set.cards[0]]
+            app.render()
+            assert 'Is HF a strong acid?' in visible_text()
+            assert question_set.cards[0].explanation not in visible_text()
+            assert set(app.session.choices()) == {'Yes', 'No'}
+            app.submit('No')
+            assert question_set.cards[0].explanation in visible_text()
+            app.render()
+            assert set(app.session.choices()) == {'Yes', 'No'}
+            app.submit('No')
+            app.render()
+            assert app.session.current is None
             print('Desktop smoke test passed: flashcards, Learn, feedback, mastery, reverse, reset, save.')
         finally:
             app.destroy()

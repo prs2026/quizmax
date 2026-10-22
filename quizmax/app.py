@@ -91,8 +91,9 @@ class App(tk.Tk):
             button = ttk.Button(toolbar, text=mode, command=lambda m=mode: self.set_mode(m))
             button.pack(side='left', padx=(0, 8))
             self.mode_buttons[mode] = button
-        ttk.Checkbutton(toolbar, text='Definition first', variable=self.reverse,
-                        command=self.direction_changed).pack(side='right')
+        self.direction_toggle = ttk.Checkbutton(toolbar, text='Definition first', variable=self.reverse,
+                                               command=self.direction_changed)
+        self.direction_toggle.pack(side='right')
         self.body = ttk.Frame(self.main)
         self.body.pack(fill='both', expand=True)
         self.status = ttk.Label(self.main, text='', foreground=MUTED, wraplength=700)
@@ -113,6 +114,10 @@ class App(tk.Tk):
         self.reset_view()
 
     def reset_view(self):
+        question_set = self.selected and any(c.question for c in self.selected.cards)
+        self.direction_toggle.configure(state='disabled' if question_set else 'normal')
+        if question_set:
+            self.reverse.set(False)
         self.order = list(self.selected.cards) if self.selected else []
         self.position, self.flipped = 0, False
         self.session = LearnSession(self.selected, self.reverse.get()) if self.selected else None
@@ -162,6 +167,8 @@ class App(tk.Tk):
                         if explained.get() else None).pack(anchor='w', pady=(0, 12))
         ttk.Label(panel, text='One card per line, for example:\nbonjour | hello\nmerci | thank you\n\n'
                   'For two-column files, uncheck both column options above.\n'
+                  'Question files starting with # quizmax-questions are detected\n'
+                  'automatically; column settings do not apply to them.\n'
                   'Quizlet tab-separated exports also work.\nBlank lines and lines starting with # are ignored.',
                   foreground=MUTED).pack(anchor='w')
 
@@ -312,7 +319,8 @@ class App(tk.Tk):
     def render_flashcards(self):
         card = self.order[self.position]
         sides = (card.definition, card.term) if self.reverse.get() else (card.term, card.definition)
-        labels = ('Definition', 'Term') if self.reverse.get() else ('Term', 'Definition')
+        labels = ('Question', 'Answer') if card.question else (
+            ('Definition', 'Term') if self.reverse.get() else ('Term', 'Definition'))
         ttk.Label(self.body, text=f'Card {self.position + 1} of {len(self.order)}  •  '
                   f'{card.category or "Uncategorized"}', foreground=MUTED).pack(anchor='w')
         content = sides[int(self.flipped)]
@@ -365,7 +373,8 @@ class App(tk.Tk):
                   foreground=MUTED).pack(anchor='w')
         ttk.Label(self.body, text='Choose the matching answer' if choices else 'Type the matching answer',
                   foreground=MUTED).pack(anchor='w')
-        self.card_panel('Definition' if self.reverse.get() else 'Term', session.sides(card)[0])
+        self.card_panel('Question' if card.question else ('Definition' if self.reverse.get() else 'Term'),
+                        session.sides(card)[0])
         self.response = ttk.Frame(self.body)
         self.response.pack(fill='x')
         if choices:

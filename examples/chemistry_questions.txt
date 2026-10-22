@@ -1,0 +1,33 @@
+# quizmax-questions
+# A: is the correct answer. Choice: supplies each possible answer, including the correct one.
+
+Q: Is HF a strong acid?
+A: No
+Choice: Yes
+Choice: No
+Category: Acid strength
+Explanation: HF is a weak acid because it only partially ionizes in water.
+
+Q: What is the charge of nitrate?
+A: -1
+Choice: -1
+Choice: -2
+Choice: -3
+Choice: +1
+Category: Polyatomic ions
+Explanation: Nitrate is NO3-. The entire ion has a net charge of -1.
+
+Q: Which formula represents magnesium hydroxide?
+A: Mg(OH)2
+Choice: MgOH
+Choice: Mg(OH)2
+Choice: Mg2OH
+Choice: MgO
+Category: Ionic formulas
+Explanation: One Mg2+ requires two OH- ions to balance its charge.
+
+# Without Choice: fields, the question uses a typed answer.
+Q: What is the ratio of calcium ions to chloride ions when CaCl2 dissolves?
+A: 1:2
+Category: Dissolved ion ratios
+Explanation: Each formula unit produces one Ca2+ ion and two Cl- ions.
